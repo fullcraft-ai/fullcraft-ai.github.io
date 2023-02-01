@@ -2,7 +2,7 @@ baseURL = "/"
 themesDir = "themes"
 theme = "hugo-serif-theme"
 languageCode = "en-us"
-title = "FullCraft Data Services"
+title = "Full Craft Data Services"
 
 [module]
   [module.hugoVersion]
@@ -23,7 +23,7 @@ title = "FullCraft Data Services"
     mobile_height = "36px"
     desktop = "images/logo/logo.png"
     desktop_height = "36px"
-    alt = "FullCraft Data Services"
+    alt = "Full Craft Data Services"
 
   [params.fonts]
     # sets the google font link in layouts/partials/google-fonts.html

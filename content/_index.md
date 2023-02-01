@@ -1,5 +1,5 @@
 ---
-title: 'FullCraft - Data Services'
+title: 'Full Craft - Data Services'
 meta_title: 'Full Craft Data Services'
 description: "Full Craft répond à tous vos besoins en data engineering, data architecture et data science"
 intro_image: "images/illustrations/ai.jpg"
