@@ -1,12 +1,12 @@
 ---
-title: 'Homepage'
-meta_title: 'Hugo Serif Theme'
-description: "Serif is a modern business theme for Hugo."
-intro_image: "images/illustrations/pointing.svg"
-intro_image_absolute: true
+title: 'FullCraft - Data Services'
+meta_title: 'FullCraft Data Services'
+description: "FullCraft répond à tous vos besoins en data engineering, data architecture et data science"
+intro_image: "images/illustrations/ai.jpg"
+intro_image_absolute: false
 intro_image_hide_on_mobile: true
 ---
 
-# Serif - A Hugo Business Theme.
+# FullCraft - Channel and Shape your Data. 
 
-Serif contains content types for a typical business website. The theme is fully responsive, blazing fast and artfully illustrated.
+De l'étude à la mise en production en passant par le POC, notre équipe prend en charge vos besoins en Data Engineering, Data Architecture, Data Science, AI, ML ou encore RL.
