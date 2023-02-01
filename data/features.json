@@ -1,17 +1,17 @@
 [
   {
-    "title": "Free Consultation",
-    "description": "New clients recieve an obligation free consultation.",
-    "image": "images/features/noun_branding_1885335.svg"
-  },
-  {
-    "title": "Certified Accountants",
-    "description": "All members of our team are certified accountants.",
+    "title": "Innovation",
+    "description": "Nous améliorons vos pratiques métier à l'aide des dernières innovations en IA",
     "image": "images/features/noun_The Process_1885341.svg"
   },
   {
-    "title": "Tax Compliance",
-    "description": "We stay up to date on the latest changes to the tax code.",
-    "image": "images/features/noun_3d modeling_1885342.svg"
+    "title": "Gardez le contrôle",
+    "description": "Des livrables sur mesure pour l'exploitation et les développement futurs",
+    "image": "images/features/noun_branding_1885335.svg"
+  },
+  {
+    "title": "Esprit d'équipe",
+    "description": "Une intégration immédiate grâce à notre expérience et notre connaissance des processs.",
+    "image": "images/features/handshake.svg"
   }
 ]
