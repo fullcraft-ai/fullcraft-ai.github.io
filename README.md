@@ -1,4 +1,4 @@
-# FullCraft
+# Full Craft
 
 ```bash
 brew install hugo
