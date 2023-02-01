@@ -7,6 +7,6 @@ intro_image_absolute: false
 intro_image_hide_on_mobile: true
 ---
 
-# Full Craft - Channel and Shape your Data. 
+![Full Craft Data Services](/images/logo/logo-medium.png)
 
-De l'étude à la mise en production en passant par le POC, notre équipe prend en charge vos besoins en Data Engineering, Data Architecture, Data Science, AI, ML ou encore RL.
+De l'étude à la mise en production en passant par le POC, nous prenons en charge vos besoins en Data Engineering, Data Architecture, Data Science, AI, ML ou encore RL.
