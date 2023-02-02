@@ -6,4 +6,4 @@ draft: false
 weight: 3
 ---
 
-Nous accélérons vos développements en prenant en charge des pans entiers de vos projets R&D et Data en collaboration étroite avec vos équipes. 
+Nous accélérons vos développements en prenant en charge des pans entiers de vos projets IA et Data en collaboration étroite avec vos équipes. 
