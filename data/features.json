@@ -2,16 +2,16 @@
   {
     "title": "Innovation",
     "description": "Nous améliorons vos pratiques métier à l'aide des dernières innovations en IA",
-    "image": "images/features/noun_The Process_1885341.svg"
+    "image": "images/features/lightbulb.svg"
   },
   {
     "title": "Gardez le contrôle",
-    "description": "Des livrables sur mesure pour l'exploitation et les développement futurs",
-    "image": "images/features/noun_branding_1885335.svg"
+    "description": "Des livrables sur mesure, prêts à être actionnés et ouverts à évolution",
+    "image": "images/features/checklist.svg"
   },
   {
     "title": "Esprit d'équipe",
-    "description": "Une intégration immédiate grâce à notre expérience et notre connaissance des processs.",
+    "description": "Une intégration immédiate et efficace au sein de votre entreprise grâce à notre expérience et notre connaissance des processs",
     "image": "images/features/handshake.svg"
   }
 ]
