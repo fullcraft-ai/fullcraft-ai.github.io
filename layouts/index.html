@@ -20,6 +20,15 @@
     </div>
   </div>
 </div>
+<div class="strip">
+  <div class="container">
+    <div class="row justify-content-start">
+      <div class="col-12 col-md-7 col-lg-6 order-2 order-md-1">
+        Nos offrons différentes modalités d'intervention, genre :
+      </div>
+    </div>
+  </div>
+</div>
 
 {{ $services := where (where .Site.RegularPages "Type" "services") ".Params.featured" true }}
 {{if gt (len $services) 0}}
