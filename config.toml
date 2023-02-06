@@ -2,7 +2,7 @@ baseURL = "/"
 themesDir = "themes"
 theme = "hugo-serif-theme"
 languageCode = "en-us"
-title = "Full Craft Data Services"
+title = "Full Craft AI Services"
 publishDir = "docs"
 
 [module]
@@ -24,7 +24,7 @@ publishDir = "docs"
     mobile_height = "36px"
     desktop = "images/logo/logo.png"
     desktop_height = "36px"
-    alt = "Full Craft Data Services"
+    alt = "Full Craft AI Services"
 
   [params.fonts]
     # sets the google font link in layouts/partials/google-fonts.html
