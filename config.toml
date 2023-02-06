@@ -3,6 +3,7 @@ themesDir = "themes"
 theme = "hugo-serif-theme"
 languageCode = "en-us"
 title = "Full Craft Data Services"
+publishDir = "docs"
 
 [module]
   [module.hugoVersion]
