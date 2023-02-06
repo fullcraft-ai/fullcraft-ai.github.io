@@ -1,6 +1,6 @@
 ---
 title: "L'équipe"
-intro_image: "images/illustrations/ai2.jpg"
+intro_image: "images/illustrations/team.png"
 intro_image_absolute: false
 intro_image_hide_on_mobile: false
 ---
