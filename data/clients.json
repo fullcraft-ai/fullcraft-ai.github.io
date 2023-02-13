@@ -1,0 +1,37 @@
+[
+  {
+    "title": "Sanofi",
+    "link": "https://www.sanofi.fr/fr/",
+    "image": "images/clients/sanofi.png"
+  },
+  {
+    "title": "Parrot",
+    "link": "https://www.parrot.com/fr",
+    "image": "images/clients/parrot.png"
+  },
+  {
+    "title": "Blue Water Intelligence",
+    "link": "https://www.bwi.earth",
+    "image": "images/clients/bwi.png"
+  },
+  {
+    "title": "Unistellar",
+    "link": "https://www.unistellar.com",
+    "image": "images/clients/unistellar.png"
+  },
+  {
+    "title": "@M2C",
+    "link": "https://www.am2c.fr",
+    "image": "images/clients/am2c.png"
+  },
+  {
+    "title": "Mini Green Power",
+    "link": "https://www.minigreenpower.com",
+    "image": "images/clients/mini-green-power.svg"
+  },
+  {
+    "title": "Epoca",
+    "link": "https://epoca.health",
+    "image": "images/clients/epoca.webp"
+  }
+]
