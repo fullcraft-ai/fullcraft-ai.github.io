@@ -7,6 +7,6 @@ intro_image_hide_on_mobile: false
 
 # L'équipe
 
-Full Craft est l’association de 2 profils centrés sur la data. Notre complémentarité a
+Full Craft est l’association de 2 profils centrés sur l'IA et la data. Notre complémentarité a
 fait ses preuves, et nous permet de solutionner vos besoins en R&D, data science et data engineering, jusqu’à l’intégration dans votre système IT global.
 
