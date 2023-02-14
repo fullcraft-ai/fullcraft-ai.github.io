@@ -6,5 +6,5 @@ draft: false
 weight: 2
 ---
 
-Concevons ensemble les modules IA et Data de votre infrastructure, du POC à 
+Concevons ensemble les modules IA et Data de votre infrastructure, du PoC à 
 la mise en production.
