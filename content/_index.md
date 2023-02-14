@@ -1,6 +1,6 @@
 ---
-title: 'Full Craft - AI Services'
-meta_title: 'Full Craft AI Services'
+title: 'Full Craft - AI Solutions'
+meta_title: 'Full Craft AI Solutions'
 description: "Full Craft répond à tous vos besoins en IA, data engineering, 
 data architecture et data science"
 intro_image: "images/illustrations/landing.png"
