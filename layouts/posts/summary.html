@@ -1,8 +1,9 @@
+{{ $content_parts := split .Content "||||||||||" }}
 <div class="service service-summary">
   <div class="service-content">
     <h2 class="service-title">
       <a href="{{ .RelPermalink }}">{{ .Title }}</a>
     </h2>
-    <p>{{ .Content | plainify | htmlUnescape | truncate (.Site.Params.posts.summary_truncate | default 120 ) "…" }}</p>
+    <p>{{ index $content_parts 0 | safe.HTML }}</p>
   </div>
 </div>

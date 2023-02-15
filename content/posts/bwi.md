@@ -6,6 +6,14 @@ draft: false
 weight: 1
 ---
 
+[BWI](https://bwi.earth) est une entreprise de prévision et d'anticipation des **risques hydrologiques** qui a fait
+appel à notre collectif pour accélérer la création de son MVP notamment sur l'ETL et ses algorithmes prévisionnels, mais 
+également sur la structuration du projet et la mise en place des process de dev.
+
+Autant dire que le scope de notre intervention était large et le défi de taille ! En voici un bref aperçu.
+
+||||||||||
+
 ![Blue Water Intelligence](/images/posts/bwi-illustration.png)
 
 > *Chez Blue Water Intelligence, le duo Full Craft a réalisé pendant 3 mois un formidable travail de développement,
