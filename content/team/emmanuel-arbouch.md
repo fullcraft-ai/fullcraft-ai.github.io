@@ -2,7 +2,7 @@
 title: "Emmanuel Arbouch"
 date: 2018-11-19T10:47:58+10:00
 draft: false
-image: "images/team/emmanuel-arbouch.jpeg"
+image: "images/team/emmanuel-arbouch-2.jpeg"
 jobtitle: "Data Scientist"
 linkedinurl: "https://www.linkedin.com/in/earbouch/"
 promoted: true
