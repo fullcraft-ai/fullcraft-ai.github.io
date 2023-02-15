@@ -3,6 +3,6 @@
     <h2 class="service-title">
       <span style="color: #468556;">{{ .Title | markdownify }}</span>
     </h2>
-    <p>{{ .Content | plainify | htmlUnescape | truncate (.Site.Params.services.summary_truncate | default 120 ) "…" }}</p>
+    <p>{{ .Content | plainify | htmlUnescape }}</p>
   </div>
 </div>
