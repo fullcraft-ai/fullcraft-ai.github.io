@@ -36,7 +36,7 @@ appel à notre collectif pour accélérer la création de son produit et **dimin
 
 Nous avons travaillé avec leurs experts en hydrologie et leur équipe de développement pour mettre en place les processus
 d'**ETL (Extract, Transform, Load)** adaptés et les **algorithmes prévisionnels** qui constituent leur core product dans
-le but de présenter un **MVP** à leurs clients au plus tôt.
+le but de présenter un **PoC** à leurs clients au plus tôt tout en constituant les fondations de leur **MVP**.
 
 ## 👷‍♂️ Structuration
 
@@ -71,7 +71,7 @@ implémenter les premiers **algorithmes prévisionnels** et en affiner la pertin
 
 --- 
 
-**En seulement 3 mois**, BWI a pu présenter à ses clients un **MVP fiable** reposant sur des bases techniques solides.
+**En seulement 3 mois**, BWI a pu présenter à ses clients un **PoC fiable** et dispose d'une **architecture technique solide pour son MVP**.
 
 
 La mise en place à tous les niveaux de pratiques de qualité, de vérification et de non-régression a été la colonne vertébrale de cette mission et assure des développements futurs encore plus fluides, efficaces et qualitatifs.
