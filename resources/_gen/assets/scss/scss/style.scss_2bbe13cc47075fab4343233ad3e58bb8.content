@@ -4649,25 +4649,15 @@ ol {
 
 .client {
   height: 100%;
-  border: 1px solid #f6f7ff;
   border-radius: 3px;
-  padding: 20px;
+  padding-bottom: 10px;
+  padding-top: 10px;
   display: flex;
   align-items: center;
   flex-direction: column;
   text-align: center;
-  margin: auto; }
-  .client .client-image {
-    flex: auto;
-    height: 80px;
-    display: flex;
-    text-align: center; }
-  .client img {
-    width: auto;
-    height: 100%; }
-  .client .client-content {
-    margin-bottom: 0;
-    margin-top: auto; }
+  margin: auto;
+  justify-content: center; }
 
 .team-summary {
   display: flex;

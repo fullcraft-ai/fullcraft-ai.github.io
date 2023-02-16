@@ -25,13 +25,13 @@
     "image": "images/clients/am2c.png"
   },
   {
-    "title": "Mini Green Power",
-    "link": "https://www.minigreenpower.com",
-    "image": "images/clients/mini-green-power.svg"
-  },
-  {
     "title": "Epoca",
     "link": "https://epoca.health",
     "image": "images/clients/epoca.webp"
+  },
+  {
+    "title": "Mini Green Power",
+    "link": "https://www.minigreenpower.com",
+    "image": "images/clients/mini-green-power.png"
   }
 ]

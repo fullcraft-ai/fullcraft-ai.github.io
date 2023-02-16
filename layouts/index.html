@@ -19,6 +19,26 @@
       </div>
       {{ end }}
     </div>
+    <div class="row justify-content-center">
+      {{ range .Site.Data.clients }}
+      <div class="col-6 col-md-3 col-lg-3">
+        <div class="client">
+          {{ if .image }}
+          {{ $image := resources.Get (.image | relURL) }}
+          {{ $image := $image.Fit "120x80" }}
+          {{ $image := $image.Filter images.Grayscale }}
+          <a href="{{.link}}" target="_blank">
+            <img alt="{{ .Title }}" src="{{ $image.RelPermalink }}" />
+          </a>
+          {{ end }}
+          <!--          <h2 class="client-title">{{ .title }}</h2>-->
+          <!--          <div class="client-content">-->
+          <!--            <p>{{ .description }}</p>-->
+          <!--          </div>-->
+        </div>
+      </div>
+      {{end}}
+    </div>
   </div>
 </div>
 
@@ -52,35 +72,6 @@
           <div class="feature-content">
             <p>{{ .description }}</p>
           </div>
-        </div>
-      </div>
-      {{end}}
-    </div>
-  </div>
-</div>
-{{end}}
-
-{{if .Site.Data.clients}}
-<div class="strip-grey">
-  <div class="container pt-6 pb-6 pt-md-10 pb-md-10">
-    <div class="row justify-content-center" style="margin-bottom: 50px">
-      <h2>Nos références</h2>
-    </div>
-    <div class="row justify-content-center">
-      {{ range .Site.Data.clients }}
-      <div class="col-12 col-md-6 col-lg-4 mb-2">
-        <div class="client rounded">
-          {{ if .image }}
-          <a href="{{.link}}" target="_blank">
-          <div class="client-image">
-            <img alt="{{ .Title }}" src="{{ .image | relURL }}" />
-          </div>
-          </a>
-          {{ end }}
-<!--          <h2 class="client-title">{{ .title }}</h2>-->
-<!--          <div class="client-content">-->
-<!--            <p>{{ .description }}</p>-->
-<!--          </div>-->
         </div>
       </div>
       {{end}}
