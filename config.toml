@@ -70,6 +70,11 @@ publishDir = "docs"
     url = "/posts/"
     weight = 3
 
+  [[menu.main]]
+    name = "Contact"
+    url = "/contact/"
+    weight = 4
+
 #  [[menu.main]]
 #    name = "À propos"
 #    url = "/about/"
@@ -95,3 +100,8 @@ publishDir = "docs"
     name = "Case Studies"
     url = "/posts/"
     weight = 3
+
+  [[menu.footer]]
+    name = "Contact"
+    url = "/contact/"
+    weight = 4
