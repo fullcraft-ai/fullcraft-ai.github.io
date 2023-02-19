@@ -1,19 +1,18 @@
-<div class="call">
-  <div class="call-box-top">
-    {{ if .site.Data.contact.phone }}
-        <div class="call-phone"><strong>Téléphone : </strong> {{ .site.Data.contact.phone }} </div>
-    {{ end }}
-    {{ if .site.Data.contact.email }}
-    <div class="call-email"><strong>Email : </strong>
-      <a href="mailto:{{ .site.Data.contact.email }}">
-        {{ .site.Data.contact.email }}
-      </a>
-    </div>
-    {{ end }}
-  </div>
-    {{ if eq .show_button "true" }}
-      <div class="call-box-bottom">
-        <a href="{{ .site.Data.contact.contact_button_link | relURL }}" class="button">Contact</a>
-      </div>
-    {{ end }}
-</div>
+<!--<div class="call">-->
+<!--  <div class="call-box-top">-->
+<!--    Voyons ensemble ce que l'IA peut faire pour votre activité-->
+<!--  </div>-->
+<!--      <div class="call-box-bottom">-->
+<p style="text-align: center">
+        <a href="/contact" class="button" style="width: 300px; text-align: center">Contact</a>
+</p>
+<!--      </div>-->
+<!--</div>-->
+
+
+<!--<div style="width:100%;text-align:right;">-->
+
+<!--    <form action="https://formkeep.com/p/26be0768ea7072197d1578f1e74ab0f9" method="get" target="_blank">-->
+<!--        <button type="submit" class="button btn btn-lg btn-block" style="margin: auto">Contact</button>-->
+<!--    </form>-->
+<!--</div>-->

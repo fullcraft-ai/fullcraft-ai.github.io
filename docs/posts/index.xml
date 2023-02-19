@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Posts on Full Craft AI Solutions</title>
+    <link>/posts/</link>
+    <description>Recent content in Posts on Full Craft AI Solutions</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 28 Nov 2018 15:14:39 +1000</lastBuildDate><atom:link href="/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>💧 MVP de prévision hydrologique - from scratch</title>
+      <link>/posts/bwi/</link>
+      <pubDate>Wed, 28 Nov 2018 15:14:39 +1000</pubDate>
+      
+      <guid>/posts/bwi/</guid>
+      <description>BWI est une entreprise de prévision et d&amp;rsquo;anticipation des risques hydrologiques qui a fait appel à notre collectif pour accélérer la création de son MVP notamment sur l&amp;rsquo;ETL et ses algorithmes prévisionnels, mais également sur la structuration du projet et la mise en place des process de dev.
+Autant dire que le scope de notre intervention était large et le défi de taille ! En voici un bref aperçu.
+||||||||||</description>
+    </item>
+    
+  </channel>
+</rss>

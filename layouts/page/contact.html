@@ -1,0 +1,37 @@
+{{ define "body_classes" }}page-contact{{ end }}
+
+{{ define "main" }}
+<div class="container pb-6 pt-6 pt-md-10 pb-md-10">
+  <div class="row justify-content-start">
+    <div class="col-12 col-md-8">
+      <h1 class="title">{{.Title}}</h1>
+      <p>
+        {{.Content}}
+      </p>
+    </div>
+  </div>
+  <div class="row justify-content-start">
+    <div class="col-12 col-md-8">
+      <form method="POST" action="https://getform.io/f/387ad066-fa9b-4395-a881-66b6c7125d82">
+        <div class="form-group">
+          <label for="email">Email</label>
+          <input type="email" class="form-control" id="email" name="email" aria-describedby="emailHelp" placeholder="Email">
+<!--          <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>-->
+        </div>
+        <div class="form-group">
+          <label for="phone">Téléphone</label>
+          <input type="phone" class="form-control" id="phone" name="phone" aria-describedby="phoneHelp" placeholder="Téléphone">
+          <!--          <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>-->
+        </div>
+        <div class="form-group">
+          <label for="text">Objet</label>
+          <textarea class="form-control" id="text" name="text" rows="8" aria-describedby="textHelp"></textarea>
+<!--          <small id="textHelp" class="form-text text-muted">Dites-nous brièvement qui vous êtes</small>-->
+        </div>
+        <input type="hidden" name="_gotcha" style="display:none !important">
+        <button type="submit" class="btn btn-primary btn-block">Envoyer</button>
+      </form>
+    </div>
+  </div>
+</div>
+{{ end }}

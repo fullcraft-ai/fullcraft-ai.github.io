@@ -2,26 +2,32 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>/posts/bwi/</loc>
+    <lastmod>2018-11-28T15:14:39+10:00</lastmod>
+  </url><url>
     <loc>/team/emmanuel-arbouch/</loc>
     <lastmod>2018-11-19T10:47:58+10:00</lastmod>
   </url><url>
-    <loc>/services/externalisez-rd/</loc>
+    <loc>/offers/externalisez-rd/</loc>
     <lastmod>2018-11-18T12:33:46+10:00</lastmod>
   </url><url>
-    <loc>/services/conseil-accompagnement/</loc>
+    <loc>/offers/conseil-accompagnement/</loc>
     <lastmod>2018-11-28T15:14:39+10:00</lastmod>
   </url><url>
     <loc>/team/pierre-mardon/</loc>
     <lastmod>2018-11-19T10:47:58+10:00</lastmod>
   </url><url>
-    <loc>/services/expertise/</loc>
+    <loc>/offers/expertise/</loc>
     <lastmod>2018-11-28T15:15:26+10:00</lastmod>
   </url><url>
     <loc>/</loc>
     <lastmod>2018-11-28T15:15:26+10:00</lastmod>
   </url><url>
-    <loc>/services/</loc>
+    <loc>/offers/</loc>
     <lastmod>2018-11-28T15:15:26+10:00</lastmod>
+  </url><url>
+    <loc>/posts/</loc>
+    <lastmod>2018-11-28T15:14:39+10:00</lastmod>
   </url><url>
     <loc>/team/</loc>
     <lastmod>2018-11-19T10:47:58+10:00</lastmod>
