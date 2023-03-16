@@ -10,7 +10,7 @@
         </p>
         {{ .Content }}
         {{ if .Site.Params.homepage.show_contact_box }}
-        {{ partial "call.html" (dict "site" .Site "context" . "show_button" "false") }}
+          {{ partial "call.html" (dict "site" .Site "context" . "show_button" "false") }}
         {{ end }}
       </div>
       {{ if .Params.intro_image }}
@@ -81,6 +81,16 @@
   </div>
 </div>
 {{end}}
+
+<div class="container pt-6 pb-6">
+  <h2 align="center">Case Studies</h2>
+  <br/>
+  <div class="row">
+    {{ range  ( where .Site.RegularPages.ByWeight "Type" "posts" ) }}
+    <div class="col-12 col-md-6 mb-3">{{ .Render "summary" }}</div>
+    {{ end }}
+  </div>
+</div>
 
 {{ end }}
 

@@ -24,7 +24,7 @@ deadline très serrée...
 --- 
 
 Dans l'incapacité de la citer, nous dirons simplement que c'est une belle entreprise qui produit des **drones de qualité 
-professionnelle**, en contrat notamment avec l'armée US 🤔
+professionnelle** 🤔
 
 
 ## 🎯 Objectif
