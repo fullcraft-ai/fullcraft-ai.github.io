@@ -1,15 +1,5 @@
 [
   {
-    "title": "Sanofi",
-    "link": "https://www.sanofi.fr/fr/",
-    "image": "images/clients/sanofi.png"
-  },
-  {
-    "title": "Parrot",
-    "link": "https://www.parrot.com/fr",
-    "image": "images/clients/parrot.png"
-  },
-  {
     "title": "Blue Water Intelligence",
     "link": "https://www.bwi.earth",
     "image": "images/clients/bwi.png"
@@ -33,5 +23,15 @@
     "title": "Mini Green Power",
     "link": "https://www.minigreenpower.com",
     "image": "images/clients/mini-green-power.png"
+  },
+  {
+    "title": "Sanofi",
+    "link": "https://www.sanofi.fr/fr/",
+    "image": "images/clients/sanofi.png"
+  },
+  {
+    "title": "Parrot",
+    "link": "https://www.parrot.com/fr",
+    "image": "images/clients/parrot.png"
   }
 ]
