@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Full Craft - AI Solutions on Full Craft AI Solutions</title>
+    <title>Full Craft - R&amp;D Services on Full Craft R&amp;D Services</title>
     <link>/</link>
-    <description>Recent content in Full Craft - AI Solutions on Full Craft AI Solutions</description>
+    <description>Recent content in Full Craft - R&amp;D Services on Full Craft R&amp;D Services</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Wed, 28 Nov 2018 15:15:26 +1000</lastBuildDate><atom:link href="/index.xml" rel="self" type="application/rss+xml" />
@@ -29,21 +29,12 @@ Son expertise transversale accélèrera significativement vos projets de R&amp;a
     </item>
     
     <item>
-      <title>L&#39;IA pour *votre* activité</title>
-      <link>/offers/externalisez-rd/</link>
-      <pubDate>Sun, 18 Nov 2018 12:33:46 +1000</pubDate>
-      
-      <guid>/offers/externalisez-rd/</guid>
-      <description>Que vous soyez une PME, PMI, start-up ou un grand groupe, vous pouvez optimiser et développer votre cœur de métier grâce à l&amp;rsquo;IA.</description>
-    </item>
-    
-    <item>
-      <title>Conseil et Accompagnement</title>
+      <title>Votre idée</title>
       <link>/offers/conseil-accompagnement/</link>
       <pubDate>Wed, 28 Nov 2018 15:14:39 +1000</pubDate>
       
       <guid>/offers/conseil-accompagnement/</guid>
-      <description>Concevons ensemble les modules IA et Data de votre infrastructure, du PoC à la mise en production.</description>
+      <description>Nous apportons notre méthode et notre savoir-faire aux différents niveaux de votre projet pour franchir toutes les étapes jusqu&amp;rsquo;à sa réalisation.</description>
     </item>
     
     <item>
@@ -53,7 +44,7 @@ Son expertise transversale accélèrera significativement vos projets de R&amp;a
       
       <guid>/team/pierre-mardon/</guid>
       <description>Pierre a fait ses armes en tant que lead développeur full-stack et CTO dans l’univers des start-ups. Véritable passionné de code et d’architecture, il a mené avec succès la structuration de plusieurs équipes et projets early stage.
-Vous pouvez vous appuyer sur son expérience pour prendre des décisions pragmatiques pour le développement de votre infrastructure data.</description>
+Vous pouvez vous appuyer sur son expérience pour prendre des décisions pragmatiques pour le développement de votre infrastructure IT.</description>
     </item>
     
     <item>
@@ -62,19 +53,19 @@ Vous pouvez vous appuyer sur son expérience pour prendre des décisions pragmat
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>/posts/unistellar/</guid>
-      <description>Conception d&amp;rsquo;une nouvelle de méthode de détection et développement d&amp;rsquo;un prototype basé sur cette méthode.
+      <description>Conception d&amp;rsquo;une nouvelle méthode de détection et développement d&amp;rsquo;un prototype basé sur cette méthode.
 ||||||||||
 🔭 L’entreprise : Unistellar Co-fondée par quatre chercheurs dont deux ont travaillé sous la direction du prix Nobel de physique 2018, Unistellar conçoit, construit et commercialise un télescope pour le grand public, permettant à ses utilisateurs de participer à des campagnes de science citoyenne.
 L&amp;rsquo;outil de data analysis utilisé pour ces campagnes fut créé par l&amp;rsquo;un des membres de notre équipe en 2020.</description>
     </item>
     
     <item>
-      <title>Renforcement de vos équipes</title>
+      <title>Notre expertise</title>
       <link>/offers/expertise/</link>
       <pubDate>Wed, 28 Nov 2018 15:15:26 +1000</pubDate>
       
       <guid>/offers/expertise/</guid>
-      <description>Nous accélérons vos développements en prenant en charge des pans entiers de vos projets IA et Data en collaboration étroite avec vos équipes.</description>
+      <description>Notre large panorama d&amp;rsquo;expériences nous permet d&amp;rsquo;implémenter efficacement les solutions les plus adaptées.</description>
     </item>
     
     <item>
@@ -84,6 +75,15 @@ L&amp;rsquo;outil de data analysis utilisé pour ces campagnes fut créé par l&
       
       <guid>/posts/drone/</guid>
       <description>On pense souvent au front-end comme à une externalité, de la plomberie entre API et UI avec pas mal de design. Cependant, dès qu&amp;rsquo;on sort des applications basiques, on peut commencer à entrevoir des glitches résultant de cette vision simpliste - également très répandue chez les développeurs mobiles eux-mêmes. Quand de plus l&amp;rsquo;application est réellement complexe, implique des IoT, des protocoles de synchronisation alambiqués avec plusieurs sources, des specs pas vraiment sèches, un prestataire un peu désorganisé qui n&amp;rsquo;a pas l&amp;rsquo;habitude de projets de cette ampleur et une deadline très serrée&amp;hellip;</description>
+    </item>
+    
+    <item>
+      <title>Vos enjeux</title>
+      <link>/offers/externalisez-rd/</link>
+      <pubDate>Sun, 18 Nov 2018 12:33:46 +1000</pubDate>
+      
+      <guid>/offers/externalisez-rd/</guid>
+      <description>Nous appréhendons vos problématiques dans leur globalité pour un suivi de projet transparent avec votre management.</description>
     </item>
     
     <item>

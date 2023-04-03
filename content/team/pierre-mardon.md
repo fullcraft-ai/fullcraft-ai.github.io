@@ -11,4 +11,4 @@ weight: 2
 
 Pierre a fait ses armes en tant que lead développeur full-stack et CTO dans l’univers des start-ups. Véritable passionné de code et d’architecture, il a mené avec succès la structuration de plusieurs équipes et projets early stage.
 
-Vous pouvez vous appuyer sur son expérience pour prendre des décisions pragmatiques pour le développement de votre infrastructure data.
+Vous pouvez vous appuyer sur son expérience pour prendre des décisions pragmatiques pour le développement de votre infrastructure IT.

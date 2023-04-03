@@ -6,7 +6,7 @@ draft: false
 weight: 2
 ---
 
-Conception d'une nouvelle de méthode de détection et développement d'un prototype basé sur cette méthode.
+Conception d'une nouvelle méthode de détection et développement d'un prototype basé sur cette méthode.
 
 ||||||||||
 

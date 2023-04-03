@@ -2,7 +2,7 @@ baseURL = "/"
 themesDir = "themes"
 theme = "hugo-serif-theme"
 languageCode = "en-us"
-title = "Full Craft AI Solutions"
+title = "Full Craft R&D Services"
 publishDir = "docs"
 
 [module]
@@ -20,11 +20,11 @@ publishDir = "docs"
     show_services_button = false # show / hide the "view all services" button
 
   [params.logo]
-    mobile = "images/logo/logo-1.png"
+    mobile = "images/logo/logo-2.png"
     mobile_height = "36px"
-    desktop = "images/logo/logo-1.png"
+    desktop = "images/logo/logo-2.png"
     desktop_height = "36px"
-    alt = "Full Craft AI Solutions"
+    alt = "Full Craft R&D Services"
 
   [params.fonts]
     # sets the google font link in layouts/partials/google-fonts.html
