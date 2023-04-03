@@ -6,7 +6,10 @@ draft: false
 weight: 2
 ---
 
-Conception d'une nouvelle méthode de détection et développement d'un prototype basé sur cette méthode.
+[Unistellar](https://www.unistellar.com/fr/) commercialise des télescopes connectés pour le grand public. L'entreprise 
+place la R&D au coeur de sa démarche produit. Afin de caractériser rapidement le potentiel du télescope pour 
+l'identification d'objets célestes, l'entreprise nous a demandé de poser les bases d'une **nouvelle méthode de détection**, 
+incluant un prototype de démonstration et des résultats mesurables.
 
 ||||||||||
 
