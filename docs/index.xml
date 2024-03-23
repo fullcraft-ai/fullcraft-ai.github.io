@@ -6,104 +6,93 @@
     <description>Recent content in Full Craft - R&amp;D Services on Full Craft R&amp;D Services</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 28 Nov 2018 15:15:26 +1000</lastBuildDate><atom:link href="/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 28 Nov 2018 15:15:26 +1000</lastBuildDate>
+    <atom:link href="/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>💧 MVP de prévision hydrologique - from scratch</title>
       <link>/posts/bwi/</link>
       <pubDate>Wed, 28 Nov 2018 15:14:39 +1000</pubDate>
-      
       <guid>/posts/bwi/</guid>
       <description>BWI est une entreprise de prévision et d&amp;rsquo;anticipation des risques hydrologiques qui a fait appel à notre collectif pour accélérer la création de son MVP notamment sur l&amp;rsquo;ETL et ses algorithmes prévisionnels, mais également sur la structuration du projet et la mise en place des process de dev.
 Autant dire que le scope de notre intervention était large et le défi de taille ! En voici un bref aperçu.
 ||||||||||</description>
     </item>
-    
     <item>
       <title>Emmanuel Arbouch</title>
       <link>/team/emmanuel-arbouch/</link>
       <pubDate>Mon, 19 Nov 2018 10:47:58 +1000</pubDate>
-      
       <guid>/team/emmanuel-arbouch/</guid>
       <description>Emmanuel a suivi une formation complète en physique théorique (Magistère d’Orsay et ENS Lyon) et s’est spécialisé dans l’analyse de données complexes et la data science. Il a développé de nombreux algorithmes pour la production dans des domaines variés tels que l’astronomie, la mesure nucléaire ou encore la modélisation d’entreprise.
 Son expertise transversale accélèrera significativement vos projets de R&amp;amp;D.</description>
     </item>
-    
     <item>
       <title>Votre idée</title>
       <link>/offers/conseil-accompagnement/</link>
       <pubDate>Wed, 28 Nov 2018 15:14:39 +1000</pubDate>
-      
       <guid>/offers/conseil-accompagnement/</guid>
       <description>Nous apportons notre méthode et notre savoir-faire aux différents niveaux de votre projet pour franchir toutes les étapes jusqu&amp;rsquo;à sa réalisation.</description>
     </item>
-    
     <item>
       <title>Pierre Mardon</title>
       <link>/team/pierre-mardon/</link>
       <pubDate>Mon, 19 Nov 2018 10:47:58 +1000</pubDate>
-      
       <guid>/team/pierre-mardon/</guid>
       <description>Pierre a fait ses armes en tant que lead développeur full-stack et CTO dans l’univers des start-ups. Véritable passionné de code et d’architecture, il a mené avec succès la structuration de plusieurs équipes et projets early stage.
 Vous pouvez vous appuyer sur son expérience pour prendre des décisions pragmatiques pour le développement de votre infrastructure IT.</description>
     </item>
-    
     <item>
       <title>🔭 Détection d’objets dans les images astronomiques</title>
       <link>/posts/unistellar/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
       <guid>/posts/unistellar/</guid>
       <description>Unistellar commercialise des télescopes connectés pour le grand public. L&amp;rsquo;entreprise place la R&amp;amp;D au coeur de sa démarche produit. Afin de caractériser rapidement le potentiel du télescope pour l&amp;rsquo;identification d&amp;rsquo;objets célestes, l&amp;rsquo;entreprise nous a demandé de poser les bases d&amp;rsquo;une nouvelle méthode de détection, incluant un prototype de démonstration et des résultats mesurables.
 ||||||||||
 🔭 L’entreprise : Unistellar Co-fondée par quatre chercheurs dont deux ont travaillé sous la direction du prix Nobel de physique 2018, Unistellar conçoit, construit et commercialise un télescope pour le grand public, permettant à ses utilisateurs de participer à des campagnes de science citoyenne.</description>
     </item>
-    
     <item>
       <title>Notre expertise</title>
       <link>/offers/expertise/</link>
       <pubDate>Wed, 28 Nov 2018 15:15:26 +1000</pubDate>
-      
       <guid>/offers/expertise/</guid>
       <description>Notre large panorama d&amp;rsquo;expériences nous permet d&amp;rsquo;implémenter efficacement les solutions les plus adaptées.</description>
     </item>
-    
     <item>
       <title>🦾 Refactoring d&#39;architecture mobile de contrôle de drone</title>
       <link>/posts/drone/</link>
       <pubDate>Wed, 28 Nov 2018 15:14:39 +1000</pubDate>
-      
       <guid>/posts/drone/</guid>
       <description>On pense souvent au front-end comme à une externalité, de la plomberie entre API et UI avec pas mal de design. Cependant, dès qu&amp;rsquo;on sort des applications basiques, on peut commencer à entrevoir des glitches résultant de cette vision simpliste - également très répandue chez les développeurs mobiles eux-mêmes. Quand de plus l&amp;rsquo;application est réellement complexe, implique des IoT, des protocoles de synchronisation alambiqués avec plusieurs sources, des specs pas vraiment sèches, un prestataire un peu désorganisé qui n&amp;rsquo;a pas l&amp;rsquo;habitude de projets de cette ampleur et une deadline très serrée&amp;hellip;</description>
     </item>
-    
     <item>
       <title>Vos enjeux</title>
       <link>/offers/externalisez-rd/</link>
       <pubDate>Sun, 18 Nov 2018 12:33:46 +1000</pubDate>
-      
       <guid>/offers/externalisez-rd/</guid>
       <description>Nous appréhendons vos problématiques dans leur globalité pour un suivi de projet transparent avec votre management.</description>
     </item>
-    
+    <item>
+      <title>YOLO Scanner Privacy Policy</title>
+      <link>/yolo-scanner-privacy-policy/</link>
+      <pubDate>Sat, 23 Mar 2024 17:01:34 +0700</pubDate>
+      <guid>/yolo-scanner-privacy-policy/</guid>
+      <description>YOLO Scanner doesn&amp;rsquo;t collect or share any of your data.
+It does not even require network access.</description>
+    </item>
     <item>
       <title>À propos</title>
       <link>/about/</link>
       <pubDate>Thu, 22 Feb 2018 17:01:34 +0700</pubDate>
-      
       <guid>/about/</guid>
       <description>Lorem markdownum aequalis strigis. Saetigeri iubeas, vultu huic alvum nondum de obside ut laniavit arbor palmis, cum quin. Rupes vetat videndo, armigerae crimen habet Priamum nec.
 Ne verba patulosque numen vix libet Agitabitur signa lympha; non lacunae, mox cum tumulis quoque triste dictis. Ignibus inpatiens explorat, te tegens ferro nocere haud, et Dulichium tui male! Quo sed fuit flexit et hic die solido, gloria?
 Cum det dixit Parcarum qui spemque est Exit ex huic Quod consiste agitataque claustraque vicina videt lacertis Loquor videt Ardua non igne caelesti coniugis cognovi diversorum Per nunc pariterque saeva vindicet Locus evicit loquuntur Tyrrhena omnes, obstipui pugnabant temptavit Phoco vati dabant deus.</description>
     </item>
-    
     <item>
       <title>Contact</title>
       <link>/contact/</link>
       <pubDate>Thu, 22 Feb 2018 17:01:34 +0700</pubDate>
-      
       <guid>/contact/</guid>
       <description></description>
     </item>
-    
   </channel>
 </rss>
