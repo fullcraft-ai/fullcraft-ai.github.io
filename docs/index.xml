@@ -75,8 +75,9 @@ Vous pouvez vous appuyer sur son expérience pour prendre des décisions pragmat
       <link>/yolo-scanner-privacy-policy/</link>
       <pubDate>Sat, 23 Mar 2024 17:01:34 +0700</pubDate>
       <guid>/yolo-scanner-privacy-policy/</guid>
-      <description>YOLO Scanner doesn&amp;rsquo;t collect or share any of your data.
-It does not even require network access.</description>
+      <description>YOLO Scanner doesn&amp;rsquo;t collect or share any of your data. It does not even require network access.
+The model files you send to it are stored locally inside the app&amp;rsquo;s container, on the device only. You can delete them at any time by swipping their cells then tapping the &amp;ldquo;trash&amp;rdquo; red button.
+Some settings (like the current active model) are also stored locally using native UserDefaults to provide continuity in your experience using YOLO Scanner.</description>
     </item>
     <item>
       <title>À propos</title>
