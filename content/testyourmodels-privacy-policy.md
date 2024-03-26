@@ -3,7 +3,7 @@ title: 'TestYourModels Privacy Policy'
 date: 2024-03-23T17:01:34+07:00
 ---
 
-TestYourModel doesn't collect or share any of your data. 
+TestYourModels doesn't collect or share any of your data. 
 It does not even require network access.
 
 The model files you send to it are stored locally inside the app's container, on the device only.
