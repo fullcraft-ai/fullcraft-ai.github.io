@@ -1,13 +1,8 @@
 [
   {
-    "title": "Blue Water Intelligence",
-    "link": "https://www.bwi.earth",
-    "image": "images/clients/bwi.png"
-  },
-  {
-    "title": "Unistellar",
-    "link": "https://www.unistellar.com",
-    "image": "images/clients/unistellar.png"
+    "title": "Sanofi",
+    "link": "https://www.sanofi.fr/fr/",
+    "image": "images/clients/sanofi.png"
   },
   {
     "title": "@M2C",
@@ -15,23 +10,63 @@
     "image": "images/clients/am2c.png"
   },
   {
-    "title": "Epoca",
-    "link": "https://epoca.health",
-    "image": "images/clients/epoca.webp"
-  },
-  {
     "title": "Mini Green Power",
     "link": "https://www.minigreenpower.com",
     "image": "images/clients/mini-green-power.png"
   },
   {
-    "title": "Sanofi",
-    "link": "https://www.sanofi.fr/fr/",
-    "image": "images/clients/sanofi.png"
+    "title": "Unistellar",
+    "link": "https://www.unistellar.com",
+    "image": "images/clients/unistellar.png"
+  },
+  {
+    "title": "Parrot",
+    "link": "https://www.parrot.com",
+    "image": "images/clients/parrot.png"
+  },
+  {
+    "title": "Heetch",
+    "link": "https://www.heetch.com",
+    "image": "images/clients/heetch.svg"
+  },
+  {
+    "title": "N3-MO",
+    "link": "https://www.n3-mo.com",
+    "image": "images/clients/n3-mo.svg"
   },
   {
     "title": "Bibak",
     "link": "https://www.bibak.fr/",
     "image": "images/clients/bibak.png"
+  },
+  {
+    "title": "Blue Water Intelligence",
+    "link": "https://www.bwi.earth",
+    "image": "images/clients/bwi.png"
+  },
+  {
+    "title": "Epoca",
+    "link": "https://epoca.health",
+    "image": "images/clients/epoca.webp"
+  },
+  {
+    "title": "Luna Food",
+    "link": "https://www.lunafood.com",
+    "image": "images/clients/luna-food.png"
+  },
+  {
+    "title": "Gate-16",
+    "link": "https://www.gate-16.com",
+    "image": "images/clients/gate-16.svg"
+  },
+  {
+    "title": "Karburan",
+    "link": "https://www.karburan.pro",
+    "image": "images/clients/karburan.png"
+  },
+  {
+    "title": "Transitions Limousines",
+    "link": "https://transitions-limousines.org",
+    "image": "images/clients/transitions-limousines.svg"
   }
 ]

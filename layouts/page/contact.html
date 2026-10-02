@@ -4,34 +4,52 @@
 <div class="container pb-6 pt-6 pt-md-10 pb-md-10">
   <div class="row justify-content-start">
     <div class="col-12 col-md-8">
-      <h1 class="title">{{.Title}}</h1>
-      <p>
-        {{.Content}}
-      </p>
+      <h1 class="title">{{ .Title }}</h1>
+      <div class="contact-intro">{{ .Content }}</div>
     </div>
   </div>
-  <div class="row justify-content-start">
-    <div class="col-12 col-md-8">
+  <div class="row justify-content-between">
+    <div class="col-12 col-md-7">
       <form method="POST" action="https://getform.io/f/387ad066-fa9b-4395-a881-66b6c7125d82">
         <div class="form-group">
+          <label for="name">Nom et société</label>
+          <input type="text" class="form-control" id="name" name="name" autocomplete="name">
+        </div>
+        <div class="form-group">
           <label for="email">Email</label>
-          <input type="email" class="form-control" id="email" name="email" aria-describedby="emailHelp" placeholder="Email">
-<!--          <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>-->
+          <input type="email" class="form-control" id="email" name="email" autocomplete="email" required>
         </div>
         <div class="form-group">
           <label for="phone">Téléphone</label>
-          <input type="phone" class="form-control" id="phone" name="phone" aria-describedby="phoneHelp" placeholder="Téléphone">
-          <!--          <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>-->
+          <input type="tel" class="form-control" id="phone" name="phone" autocomplete="tel">
         </div>
         <div class="form-group">
-          <label for="text">Objet</label>
-          <textarea class="form-control" id="text" name="text" rows="8" aria-describedby="textHelp"></textarea>
-<!--          <small id="textHelp" class="form-text text-muted">Dites-nous brièvement qui vous êtes</small>-->
+          <label for="text">Votre besoin</label>
+          <textarea class="form-control" id="text" name="text" rows="8" required></textarea>
         </div>
         <input type="hidden" name="_gotcha" style="display:none !important">
         <button type="submit" class="btn btn-primary btn-block">Envoyer</button>
       </form>
     </div>
+    {{ with .Site.Data.contact }}
+    <div class="col-12 col-md-4 mt-4 mt-md-0">
+      <div class="contact-direct">
+        <h2>Nous joindre directement</h2>
+        {{ with .phone }}
+        <p>
+          <span class="contact-direct-libelle">Téléphone</span>
+          <a href="tel:+33{{ replace (strings.TrimPrefix "0" .) " " "" }}">{{ . }}</a>
+        </p>
+        {{ end }}
+        {{ with .email }}
+        <p>
+          <span class="contact-direct-libelle">Email</span>
+          <a href="mailto:{{ . }}">{{ . }}</a>
+        </p>
+        {{ end }}
+      </div>
+    </div>
+    {{ end }}
   </div>
 </div>
 {{ end }}

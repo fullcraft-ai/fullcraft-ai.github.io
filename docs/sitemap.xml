@@ -2,54 +2,21 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>/posts/bwi/</loc>
-    <lastmod>2018-11-28T15:14:39+10:00</lastmod>
-  </url><url>
     <loc>/team/emmanuel-arbouch/</loc>
-    <lastmod>2018-11-19T10:47:58+10:00</lastmod>
-  </url><url>
-    <loc>/offers/conseil-accompagnement/</loc>
-    <lastmod>2018-11-28T15:14:39+10:00</lastmod>
   </url><url>
     <loc>/team/pierre-mardon/</loc>
-    <lastmod>2018-11-19T10:47:58+10:00</lastmod>
   </url><url>
-    <loc>/posts/unistellar/</loc>
-  </url><url>
-    <loc>/offers/expertise/</loc>
-    <lastmod>2018-11-28T15:15:26+10:00</lastmod>
-  </url><url>
-    <loc>/posts/drone/</loc>
-    <lastmod>2018-11-28T15:14:39+10:00</lastmod>
-  </url><url>
-    <loc>/offers/externalisez-rd/</loc>
-    <lastmod>2018-11-18T12:33:46+10:00</lastmod>
+    <loc>/team/alexis-martin/</loc>
   </url><url>
     <loc>/testyourmodels-privacy-policy/</loc>
     <lastmod>2024-03-23T17:01:34+07:00</lastmod>
   </url><url>
+    <loc>/contact/</loc>
+  </url><url>
     <loc>/</loc>
-    <lastmod>2018-11-28T15:15:26+10:00</lastmod>
-  </url><url>
-    <loc>/offers/</loc>
-    <lastmod>2018-11-28T15:15:26+10:00</lastmod>
-  </url><url>
-    <loc>/posts/</loc>
-    <lastmod>2018-11-28T15:14:39+10:00</lastmod>
   </url><url>
     <loc>/team/</loc>
-    <lastmod>2018-11-19T10:47:58+10:00</lastmod>
-  </url><url>
-    <loc>/about/</loc>
-    <lastmod>2018-02-22T17:01:34+07:00</lastmod>
-  </url><url>
-    <loc>/contact/</loc>
-    <lastmod>2018-02-22T17:01:34+07:00</lastmod>
-  </url><url>
-    <loc>/categories/</loc>
   </url><url>
     <loc>/404/</loc>
-  </url><url>
-    <loc>/tags/</loc>
   </url>
 </urlset>

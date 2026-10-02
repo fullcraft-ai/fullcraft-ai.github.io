@@ -1,0 +1,2 @@
+{{/* Pictogramme au trait (collection Lucide, licence ISC), inséré tel quel pour hériter de la couleur du texte. */}}
+{{ with resources.Get (printf "icons/%s.svg" .) }}{{ .Content | safeHTML }}{{ end }}

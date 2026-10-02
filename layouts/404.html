@@ -1,0 +1,17 @@
+{{ define "body_classes" }}page-404{{ end }}
+
+{{ define "title" }}Page introuvable - {{ .Site.Title }}{{ end }}
+
+{{ define "main" }}
+<div class="container pt-6 pb-6 pt-md-10 pb-md-10">
+  <div class="row justify-content-start">
+    <div class="col-12 col-md-8">
+      <h1 class="title">Page introuvable</h1>
+      <p>La page que vous cherchez n’existe pas ou a été déplacée.</p>
+      <p class="appel-bouton">
+        <a href="{{ "/" | relURL }}" class="button">Retour à l’accueil</a>
+      </p>
+    </div>
+  </div>
+</div>
+{{ end }}

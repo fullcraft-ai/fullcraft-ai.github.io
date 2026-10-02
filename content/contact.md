@@ -1,5 +1,8 @@
 ---
 title: 'Contact'
-date: 2018-02-22T17:01:34+07:00
+description: "Parlez-nous de votre besoin : vous échangerez directement avec l’un des ingénieurs de Full Craft."
 layout: contact
 ---
+
+Parlez-nous de votre besoin, même s'il n'est pas encore bien défini.
+Vous échangerez directement avec l'un de nous.

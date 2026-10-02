@@ -3,95 +3,129 @@
 {{ define "main" }}
 <div class="intro">
   <div class="container">
-    <div class="row justify-content-start">
-      <div class="col-12 col-md-7 col-lg-6 order-2 order-md-1" style="text-align: center">
-        <p>
-          <img src="images/logo/logo-2.png" style="max-width: 100%; height: auto; margin-bottom: 30px; alignment: center" alt="Responsive image">
-        </p>
+    <div class="row align-items-center">
+      <div class="col-12 col-lg-6">
+        <h1>{{ .Title }}</h1>
         {{ .Content }}
-        {{ if .Site.Params.homepage.show_contact_box }}
-          {{ partial "call.html" (dict "site" .Site "context" . "show_button" "false") }}
-        {{ end }}
+        {{ partial "call.html" (dict "label" .Params.bouton) }}
       </div>
-      {{ if .Params.intro_image }}
-      <div class="col-12 col-md-5 col-lg-6 order-1 order-md-2 position-relative">
-        <img alt={{ .Title }}
-          class="intro-image{{ if .Params.intro_image_absolute }} intro-image-absolute{{ end }}{{ if .Params.intro_image_hide_on_mobile }} intro-image-hide-mobile{{ end }}"
-          src="{{ .Params.intro_image | relURL }}" />
-      </div>
-      {{ end }}
-    </div>
-    <div class="row justify-content-center">
-      {{ range .Site.Data.clients }}
-      <div class="col-6 col-md-3 col-lg-3">
-        <div class="client">
-          {{ if .image }}
-          {{ $image := resources.Get (.image | relURL) }}
-          {{ $image := $image.Fit "120x80" }}
-          {{ $image := $image.Filter images.Grayscale }}
-          <a href="{{.link}}" target="_blank">
-            <img alt="{{ .Title }}" src="{{ $image.RelPermalink }}" />
-          </a>
-          {{ end }}
-          <!--          <h2 class="client-title">{{ .title }}</h2>-->
-          <!--          <div class="client-content">-->
-          <!--            <p>{{ .description }}</p>-->
-          <!--          </div>-->
+      <div class="col-lg-6 d-none d-lg-block">
+        <div class="planche">
+          {{ with resources.Get "images/illustrations/planche.svg" }}{{ .Content | safeHTML }}{{ end }}
         </div>
       </div>
-      {{end}}
     </div>
   </div>
 </div>
 
-{{ $offers := where (where .Site.RegularPages "Type" "offers") ".Params.featured" true }}
-{{if gt (len $offers) 0}}
-<div class="strip">
-  <div class="container pt-6 pb-6 pb-md-10">
-    <div class="row justify-content-start">
-      {{ range first 6 (sort $offers ".Params.weight") }}
-      <div class="col-12 col-md-4 mb-1">
-        {{ .Render "summary" }}
-      </div>
-      {{ end }}
-    </div>
-  </div>
+{{ with .Site.Data.clients }}
+<div class="container pb-6 pb-md-10">
+  <p class="surtitre text-center">Ils nous ont fait confiance</p>
+  <ul class="clients">
+    {{ range . }}
+    {{ $client := . }}
+    {{ with resources.Get .image }}
+    {{ $logo := . }}
+    {{ if ne .MediaType.SubType "svg" }}{{ $logo = .Fit "280x160" }}{{ end }}
+    <li class="client">
+      <a href="{{ $client.link }}" target="_blank" rel="noopener"><img alt="{{ $client.title }}" src="{{ $logo.RelPermalink }}" /></a>
+    </li>
+    {{ end }}
+    {{ end }}
+  </ul>
 </div>
-{{end}}
+{{ end }}
 
-{{if .Site.Data.features}}
+{{ with .Site.Data.engagements }}
 <div class="strip strip-grey">
   <div class="container pt-6 pb-6 pt-md-10 pb-md-10">
-    <div class="row justify-content-center">
-      {{ range .Site.Data.features }}
-      <div class="col-12 col-md-6 col-lg-4 mb-2">
-        <div class="feature">
-          {{ if .image }}
-          <div class="feature-image"><img width="100" height="100" alt="{{ .Title }} logo"
-              src="{{ .image | relURL }}" /></div>
-          {{ end }}
-          <h2 class="feature-title">{{ .title }}</h2>
-          <div class="feature-content">
-            <p>{{ .description }}</p>
-          </div>
+    <div class="row">
+      {{ range . }}
+      <div class="col-12 col-md-4 mb-3 mb-md-0">
+        <div class="engagement">
+          <div class="engagement-icone">{{ partial "icone.html" .icone }}</div>
+          <h2 class="engagement-titre">{{ .titre }}</h2>
+          <p>{{ .texte }}</p>
         </div>
       </div>
-      {{end}}
+      {{ end }}
     </div>
   </div>
 </div>
-{{end}}
+{{ end }}
 
-<div class="container pt-6 pb-6">
-  <h2 align="center">Case Studies</h2>
-  <br/>
+{{ with .Site.Data.domaines }}
+<div class="container pt-6 pb-6 pt-md-10 pb-md-10">
+  <div class="section-entete">
+    <h2>Nos domaines</h2>
+    <p>Quatre familles de sujets, avec pour chacune des exemples de ce que nous avons réalisé.</p>
+  </div>
   <div class="row">
-    {{ range  ( where .Site.RegularPages.ByWeight "Type" "posts" ) }}
-    <div class="col-12 col-md-6 mb-3">{{ .Render "summary" }}</div>
+    {{ range . }}
+    <div class="col-12 col-md-6 mb-4">
+      <div class="domaine">
+        <h3 class="domaine-titre">{{ .titre }}</h3>
+        <p class="domaine-intro">{{ .intro }}</p>
+        <ul class="domaine-exemples">
+          {{ range .exemples }}
+          <li><strong>{{ .sujet }}</strong>&nbsp;: {{ .detail }}</li>
+          {{ end }}
+        </ul>
+      </div>
+    </div>
     {{ end }}
   </div>
+  <p class="note-cir">
+    Emmanuel Arbouch est agréé au titre du crédit d’impôt recherche pour 2026-2028&nbsp;:
+    les travaux de R&amp;D que vous lui confiez peuvent entrer dans votre propre crédit d’impôt.
+  </p>
 </div>
+{{ end }}
 
+{{ with .Site.Data.temoignage }}
+<div class="strip strip-grey">
+  <div class="container pt-6 pb-6 pt-md-10 pb-md-10">
+    <figure class="temoignage">
+      <blockquote>
+        <p>«&nbsp;{{ .citation }}&nbsp;»</p>
+      </blockquote>
+      <figcaption><strong>{{ .auteur }}</strong>, {{ .fonction }}</figcaption>
+    </figure>
+  </div>
+</div>
+{{ end }}
+
+{{ with .Site.GetPage "/team" }}
+<div class="container pt-6 pb-6 pt-md-10 pb-md-10">
+  <div class="section-entete">
+    <h2>L’équipe</h2>
+    <p>{{ .Params.socle }}</p>
+  </div>
+  <div class="row justify-content-center">
+    {{ range .Pages.ByWeight }}
+    <div class="col-12 col-sm-4 mb-3">
+      <div class="equipier">
+        {{ partial "portrait.html" . }}
+        <h3 class="equipier-nom">{{ .Title }}</h3>
+        <p class="equipier-role">{{ .Params.jobtitle }}</p>
+        <p class="equipier-specialite">{{ .Params.specialite }}</p>
+      </div>
+    </div>
+    {{ end }}
+  </div>
+  <p class="text-center mb-0"><a class="lien-suite" href="{{ .RelPermalink }}">Faire connaissance avec l’équipe</a></p>
+</div>
+{{ end }}
+
+<div class="strip strip-appel">
+  <div class="container pt-6 pb-6">
+    <div class="appel">
+      <h2>Un projet, un logiciel à reprendre, une question&nbsp;?</h2>
+      <p>Parlez-nous de votre besoin, même s’il n’est pas encore bien défini.</p>
+      <a href="{{ "contact/" | relURL }}" class="button button-clair">Nous contacter</a>
+    </div>
+  </div>
+</div>
 {{ end }}
 
 {{ define "footer_js" }}

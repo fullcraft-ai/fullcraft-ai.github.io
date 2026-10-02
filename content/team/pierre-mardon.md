@@ -1,14 +1,16 @@
 ---
 title: "Pierre Mardon"
-date: 2018-11-19T10:47:58+10:00
 draft: false
 image: "images/team/pierre-mardon.jpeg"
-jobtitle: "Data Engineer"
+jobtitle: "Architecte logiciel"
+specialite: "Web, mobile et serveur"
 linkedinurl: "https://www.linkedin.com/in/pierre-mardon-09361319/"
 promoted: true
 weight: 2
 ---
 
-Pierre a fait ses armes en tant que lead développeur full-stack et CTO dans l’univers des start-ups. Véritable passionné de code et d’architecture, il a mené avec succès la structuration de plusieurs équipes et projets early stage.
+Ingénieur ENSIMAG, Pierre conçoit et dirige des projets logiciels depuis seize ans, comme directeur technique puis comme architecte.
 
-Vous pouvez vous appuyer sur son expérience pour prendre des décisions pragmatiques pour le développement de votre infrastructure IT.
+Applications web et mobiles, serveurs, bases de données : il a créé, repris et remis d'aplomb des logiciels complets, en encadrant des équipes allant jusqu'à neuf développeurs.
+
+Il intervient aussi en audit, et intègre l'IA là où elle apporte un gain vérifiable.

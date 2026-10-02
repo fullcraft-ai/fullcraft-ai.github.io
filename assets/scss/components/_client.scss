@@ -1,25 +1,39 @@
+.surtitre {
+  text-transform: uppercase;
+  letter-spacing: 0.12em;
+  font-size: 13px;
+  color: $grey;
+  margin-bottom: 24px;
+}
+
+.clients {
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 14px 40px;
+  margin: 0;
+  padding: 0;
+}
+
 .client {
-  height: 100%;
-  //border: 1px solid $white-offset;
-  border-radius: 3px;
-  padding-bottom: 10px;
-  padding-top: 10px;
-  //background-color: lightgrey;
   display: flex;
   align-items: center;
-  flex-direction: column;
-  text-align: center;
-  margin: auto;
   justify-content: center;
-  //.client-image {
-  //  flex: auto;
-  //  //width: 80px;
-  //  height: 80px;
-  //  display: flex;
-  //  text-align: center;
-  //}
-  //img {
-  //  width: auto;
-  //  height: 100%;
-  //}
+  width: 130px;
+  height: 64px;
+  margin: 0;
+  img {
+    display: block;
+    width: 130px;
+    height: 52px;
+    object-fit: contain;
+    filter: grayscale(1);
+    opacity: 0.75;
+    transition: opacity 0.15s ease;
+  }
+  a:hover img {
+    opacity: 1;
+  }
 }

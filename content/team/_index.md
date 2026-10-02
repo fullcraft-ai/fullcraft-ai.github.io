@@ -1,12 +1,9 @@
 ---
-title: "L'équipe"
-intro_image: "images/illustrations/team.png"
-intro_image_absolute: false
-intro_image_hide_on_mobile: false
+title: "L’équipe"
+description: "Full Craft réunit trois ingénieurs : vous échangez directement avec ceux qui conçoivent et développent votre logiciel."
+socle: "Nous partageons le même socle : développement d’applications, serveurs, bases de données, mise en service. Chacun y ajoute sa spécialité."
 ---
 
-# L'équipe
-
-Full Craft est l’association de 2 profils centrés sur la data. Notre complémentarité a
-fait ses preuves, et nous permet de solutionner vos besoins en R&D, data science et data engineering, jusqu’à l’intégration dans votre système IT global.
-
+Full Craft réunit trois ingénieurs. Vous échangez directement avec ceux qui
+conçoivent et développent votre logiciel, du premier rendez-vous au suivi dans
+la durée.

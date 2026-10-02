@@ -1,0 +1,6 @@
+{{/* Portrait rond en noir et blanc d'un membre de l'équipe. Contexte : la page du membre. */}}
+{{ $nom := .Title }}
+{{ with resources.Get .Params.image }}
+{{ $photo := (.Fill "240x240 Center jpg q88").Filter images.Grayscale }}
+<img class="portrait" width="120" height="120" alt="Portrait de {{ $nom }}" src="{{ $photo.RelPermalink }}" />
+{{ end }}
