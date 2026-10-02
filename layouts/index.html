@@ -33,6 +33,15 @@
     {{ end }}
     {{ end }}
   </ul>
+  {{ with $.Site.Data.agrement }}
+  <div class="agrement">
+    <div class="agrement-icone">{{ partial "icone.html" "badge-check" }}</div>
+    <div>
+      <p class="agrement-titre">{{ .titre }}</p>
+      <p class="agrement-texte">{{ .texte }}</p>
+    </div>
+  </div>
+  {{ end }}
 </div>
 {{ end }}
 
@@ -58,7 +67,6 @@
 <div class="container pt-6 pb-6 pt-md-10 pb-md-10">
   <div class="section-entete">
     <h2>Nos domaines</h2>
-    <p>Quatre familles de sujets, avec pour chacune des exemples de ce que nous avons réalisé.</p>
   </div>
   <div class="row">
     {{ range . }}
@@ -75,10 +83,6 @@
     </div>
     {{ end }}
   </div>
-  <p class="note-cir">
-    Emmanuel Arbouch est agréé au titre du crédit d’impôt recherche pour 2026-2028&nbsp;:
-    les travaux de R&amp;D que vous lui confiez peuvent entrer dans votre propre crédit d’impôt.
-  </p>
 </div>
 {{ end }}
 
@@ -99,7 +103,6 @@
 <div class="container pt-6 pb-6 pt-md-10 pb-md-10">
   <div class="section-entete">
     <h2>L’équipe</h2>
-    <p>{{ .Params.socle }}</p>
   </div>
   <div class="row justify-content-center">
     {{ range .Pages.ByWeight }}

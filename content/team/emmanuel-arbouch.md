@@ -10,7 +10,7 @@ promoted: true
 weight: 1
 ---
 
-Physicien de formation (Magistère d'Orsay, ENS de Lyon), Emmanuel développe depuis 2017 des logiciels pour l'industrie, du premier prototype au déploiement sur plusieurs sites.
+Physicien de formation (Magistère d'Orsay, ENS de Lyon), Emmanuel développe depuis neuf ans des logiciels pour l'industrie, du premier prototype au déploiement sur plusieurs sites.
 
 Il couvre toute la chaîne : logiciel embarqué et acquisition de mesures, serveurs et bases de données, interfaces web et tableaux de bord.
 
